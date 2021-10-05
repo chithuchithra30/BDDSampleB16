@@ -21,7 +21,7 @@ public class CRMUsersStepDef {
 
 	@Given("User is already in login page")
 	public void user_is_already_in_login_page() {
-
+		System.out.println("Modified again for pahse1");
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -35,7 +35,7 @@ public class CRMUsersStepDef {
 //		    driver.findElement(By.name("email")).sendKeys("corpdevops@gmail.com");
 //		    driver.findElement(By.name("password")).sendKeys("CrmPro123");
 //		    driver.findElement(By.xpath("//div[@class = 'ui fluid large blue submit button']")).click();
-	System.out.println("Modified for git");
+	//System.out.println("Modified for git");
 //		}
 
 //	@When("User enters {string} and {string}")
